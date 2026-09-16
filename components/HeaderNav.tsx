@@ -2,16 +2,17 @@
 //Components
 import { useState } from "react";
 import Image from "next/image";
-import CastumLink from "./CastumLink";
-import CastumBtnA from "./CastumBtnA";
+import CustomLink from "./CustomLink";
+import CustomBtnA from "./CustomBtnA";
 //Icons
 import { HiMenu } from "react-icons/hi";
+import { CgClose } from "react-icons/cg";
 
 export default function HeaderNav() {
     const [menuOpen, setMenuOpen] = useState<boolean>(false);
 
     return(
-        <header className="max-w-[120rem] w-full flex flex-col lg:flex-row items-center justify-between px-10 lg:gap-45">
+        <header className="max-w-[120rem] w-full flex flex-col lg:flex-row items-center justify-between px-20 lg:gap-45">
             <div className="flex items-center justify-between w-full lg:w-auto">
                 <Image 
                     src={'/images/abstractly.png'}
@@ -22,10 +23,15 @@ export default function HeaderNav() {
                 />
                 <button
                     type="button"
-                    className="lg:hidden text-[#525252]"
+                    className="lg:hidden text-[#525252] outline-none duration-300
+                                active:rotate-90"
                     onClick={() => setMenuOpen(!menuOpen)}
                 >
-                    <HiMenu size={40} />
+                    {!menuOpen ?
+                        <HiMenu size={40} />
+                    :
+                        <CgClose size={40} />
+}                   
                 </button>
             </div>
             <div 
@@ -34,33 +40,33 @@ export default function HeaderNav() {
                         ${menuOpen ? 'max-h-screen py-3' : 'max-h-0 py-0'}`}
             >
                 <div className="flex flex-col lg:flex-row items-center gap-3 lg:gap-5">
-                    <CastumLink 
+                    <CustomLink 
                         name="Home"
                         linkHref="/"
                     />
-                    <CastumLink 
+                    <CustomLink 
                         name="Features"
                         linkHref="/"
                     />
-                    <CastumLink 
+                    <CustomLink 
                         name="Pricing"
                         linkHref="/"
                     />
-                    <CastumLink 
+                    <CustomLink 
                         name="About us"
                         linkHref="/"
                     />
-                    <CastumLink 
+                    <CustomLink 
                         name="Contacts"
                         linkHref="/"
                     />
                 </div>
                 <div className="flex items-center gap-5 py-5">
-                    <CastumBtnA
+                    <CustomBtnA
                         name="Learn more"
                         classN='bg-white text-black'
                     />
-                    <CastumBtnA
+                    <CustomBtnA
                         name="See pricong"
                         classN='bg-[#4438CA] text-white'
                     />

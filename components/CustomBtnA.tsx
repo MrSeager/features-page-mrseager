@@ -1,9 +1,9 @@
-interface CastumBtnAProps {
+interface CustomBtnAProps {
     name: string,
     classN: string,
 }
 
-export default function CastumBtnA({ name, classN }: CastumBtnAProps) {
+export default function CustomBtnA({ name, classN }: CustomBtnAProps) {
     return  <button
                 type="button"
                 className={`cursor-pointer ${classN} font-semibold shadow-sm py-3 px-4 rounded-md outline-none duration-300
