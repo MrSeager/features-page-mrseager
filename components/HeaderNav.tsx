@@ -12,7 +12,7 @@ export default function HeaderNav() {
     const [menuOpen, setMenuOpen] = useState<boolean>(false);
 
     return(
-        <header className="max-w-[120rem] w-full flex flex-col lg:flex-row items-center justify-between px-20 lg:gap-45">
+        <header className="max-w-[120rem] w-full flex flex-col lg:flex-row items-center justify-between py-3 px-5 lg:px-20 lg:gap-45">
             <div className="flex items-center justify-between w-full lg:w-auto">
                 <Image 
                     src={'/images/abstractly.png'}

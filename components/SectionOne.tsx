@@ -6,9 +6,9 @@ import { IoMdCheckmark } from "react-icons/io";
 
 export default function SectionOne() {
     return(
-        <div className="z-1 bg-white grid lg:grid-cols-2 items-center px-15 py-20 w-full rounded-t-md shadow-md">
+        <div className="z-1 bg-white grid lg:grid-cols-2 items-center px-5 lg:px-15 py-20 w-full rounded-t-md shadow-md">
             <div className="flex flex-col items-start gap-10">
-                <h1 className="text-[65px] font-semibold text-base/13">
+                <h1 className="text-4xl md:text-6xl font-semibold">
                     Premium <br className="block md:hidden lg:block" />
                     abstract images
                 </h1>
@@ -34,6 +34,7 @@ export default function SectionOne() {
                     alt="prism"
                     width={1392}
                     height={1052}
+                    className="pointer-events-none"
                 />
             </div>
         </div>
