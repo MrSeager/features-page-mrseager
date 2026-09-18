@@ -8,14 +8,14 @@ export default function SectionOne() {
     return(
         <div className="z-1 bg-white grid lg:grid-cols-2 items-center px-5 lg:px-15 py-20 w-full rounded-t-md shadow-md">
             <div className="flex flex-col items-start gap-10">
-                <h1 className="text-4xl md:text-6xl font-semibold">
+                <h1 className="text-4xl md:text-6xl font-semibold duration-300 hover:scale-105">
                     Premium <br className="block md:hidden lg:block" />
                     abstract images
                 </h1>
                 <ul className="text-[#525252] text-base/9">
-                    <li className="flex items-center gap-2"><IoMdCheckmark className="rounded-full bg-[#4438CA]/25 text-[#4438CA]" />Minimum 5K image resolution</li>
-                    <li className="flex items-center gap-2"><IoMdCheckmark className="rounded-full bg-[#4438CA]/25 text-[#4438CA]" />Various format variants available</li>
-                    <li className="flex items-center gap-2"><IoMdCheckmark className="rounded-full bg-[#4438CA]/25 text-[#4438CA]" />Retina display support</li>
+                    <li className="flex items-center gap-2 duration-300 hover:scale-105"><IoMdCheckmark className="rounded-full bg-[#4438CA]/25 text-[#4438CA]" />Minimum 5K image resolution</li>
+                    <li className="flex items-center gap-2 duration-300 hover:scale-105"><IoMdCheckmark className="rounded-full bg-[#4438CA]/25 text-[#4438CA]" />Various format variants available</li>
+                    <li className="flex items-center gap-2 duration-300 hover:scale-105"><IoMdCheckmark className="rounded-full bg-[#4438CA]/25 text-[#4438CA]" />Retina display support</li>
                 </ul>
                 <div className="flex gap-2">
                     <CustomBtnA

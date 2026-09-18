@@ -1,15 +1,15 @@
 //Components
 import SectionTwoItem from "./SectionTwoItem";
 //Icons
-import { RiDownload2Line, RiBrushLine, RiCopyrightLine, RiRefund2Fill, RiTeamLine, RiLoopRightFill } from "react-icons/ri";
+import { RiDownload2Line, RiBrushLine, RiCopyrightLine, RiRefund2Fill, RiTeamLine, RiRefreshLine } from "react-icons/ri";
 
 export default function SectionTwo() {
     return(
         <div className="z-2 grid md:grid-cols-2 lg:grid-cols-3 py-10 bg-white w-full shadow-md gap-3 px-5 lg:px-15">
             <div className="md:col-span-2 lg:col-span-3 flex flex-col items-center text-center justify-center gap-3 py-5">
-                <h2 className="text-[#4438CA] text-sm font-semibold">Premium abstract images</h2>
-                <h2 className="text-3xl md:text-5xl font-semibold">Easy access to top quality images</h2>
-                <p className="text-[#525252]">
+                <h2 className="text-[#4438CA] text-sm font-semibold duration-300 hover:scale-105">Premium abstract images</h2>
+                <h2 className="text-3xl md:text-5xl font-semibold duration-300 hover:scale-105">Easy access to top quality images</h2>
+                <p className="text-[#525252] duration-300 hover:scale-105">
                     In a world where storytelling constantly evolves, we lead with groundbreaking images
                     <br />designed for your presentation excellence.
                 </p>
@@ -40,7 +40,7 @@ export default function SectionTwo() {
                 text="We support multiple seats at once, requiring only a single payment."
             />
             <SectionTwoItem 
-                icon={<RiLoopRightFill size={25} />}
+                icon={<RiRefreshLine  size={25} />}
                 title='No Limitations'
                 text="Use as many as you want, from Dribbble presentations to PowerPoint presentations."
             />
