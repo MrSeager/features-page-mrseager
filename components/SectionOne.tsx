@@ -6,7 +6,7 @@ import { IoMdCheckmark } from "react-icons/io";
 
 export default function SectionOne() {
     return(
-        <div className="z-1 bg-white grid lg:grid-cols-2 items-center px-5 lg:px-15 py-20 w-full rounded-t-md shadow-md">
+        <div className="z-1 bg-white grid lg:grid-cols-2 items-center px-5 lg:px-15 py-20 w-full rounded-t-md shadow-xl">
             <div className="flex flex-col items-start gap-10">
                 <h1 className="text-4xl md:text-6xl font-semibold duration-300 hover:scale-105">
                     Premium <br className="block md:hidden lg:block" />

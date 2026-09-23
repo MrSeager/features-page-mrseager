@@ -3,7 +3,7 @@ import SectionFourItem from "./SectionFourItem";
 
 export default function SectionFour() {
     return(
-        <div className="z-4 grid grid-flow-col grid-rows-10 md:grid-rows-6 lg:grid-rows-4 md:grid-cols-2 lg:grid-cols-3 py-10 bg-white w-full shadow-md gap-3 px-5 lg:px-15">
+        <div className="z-4 grid grid-flow-col grid-rows-10 md:grid-rows-6 lg:grid-rows-4 md:grid-cols-2 lg:grid-cols-3 py-10 bg-white w-full shadow-xl gap-3 px-5 lg:px-15">
             <div className="md:col-span-2 lg:col-span-3 flex flex-col items-center text-center justify-center gap-3 py-5">
                 <h2 className="text-[#4438CA] text-sm font-semibold duration-300 hover:scale-105">Testimonials</h2>
                 <h2 className="text-3xl md:text-5xl font-semibold duration-300 hover:scale-105">Countless users, countless smiles</h2>

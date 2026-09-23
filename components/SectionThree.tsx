@@ -6,7 +6,7 @@ import { RiHdLine, RiWaterPercentLine, RiRainbowLine, RiRocket2Line, RiP2pLine, 
 
 export default function SectionThree() {
     return(
-        <div className="z-3 grid lg:grid-cols-2 py-10 bg-white w-full shadow-md gap-5 px-5 lg:px-15">
+        <div className="z-3 grid lg:grid-cols-2 py-10 bg-white w-full shadow-xl gap-5 px-5 lg:px-15">
             <div className="lg:col-span-2 flex flex-col items-center text-center justify-center gap-3 py-5">
                 <h2 className="text-[#4438CA] text-sm font-semibold duration-300 hover:scale-105">High quaility images</h2>
                 <h2 className="text-3xl md:text-5xl font-semibold duration-300 hover:scale-105">For designers, by designers</h2>
