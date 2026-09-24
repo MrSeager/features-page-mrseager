@@ -38,15 +38,15 @@ export default function SectionFive() {
                     answer="We regulary update our image collection with fresh and captivating content to keep our users inspired and engaged. New images are added constantly to ensure there's always something new to discover on our platform."
                 />
             </div>
-            <div className="flex items-center justify-between ring ring-[#525252]/25 shadow-md p-5 rounded-md duration-300 ease-in-out hover:scale-101 hover:shadow-lg">
+            <div className="flex flex-col md:flex-row justify-between ring ring-[#525252]/25 shadow-md p-5 rounded-md duration-300 ease-in-out hover:scale-101 hover:shadow-lg">
                 <div className="flex flex-col gap-2">
                     <h5 className="text-xl font-semibold">Can&apos;t find the answer you&apos;re looking for?</h5>
-                    <p>Reach out to our <Link href={'/'} className="text-[#4438CA]">customer support</Link> team.</p>
+                    <p>Reach out to our <Link href={'/'} className="outline-none text-[#4438CA] border-b border-transparent duration-300 hover:border-[#4438CA] focus:border-[#4438CA]">customer support</Link> team.</p>
                 </div>
-                <div>
+                <div className="w-full md:w-auto flex items-center py-3">
                     <CustomBtnA
                         name="Get in touch"
-                        classN='bg-[#4438CA] text-white px-5'
+                        classN='bg-[#4438CA] text-white px-5 w-full'
                     />
                 </div>
             </div>

@@ -13,9 +13,9 @@ export default function SectionFiveItem({ question, answer }: SectionFiveItemPro
     const [open, setOpen] = useState<boolean>(false);
 
     return(
-        <div className="flex flex-col gap-2 py-3 duration-300 ease-in-out hover:scale-101">
+        <div className="flex flex-col gap-2 py-3 duration-300 ease-in-out">
             <button 
-                className="group cursor-pointer text-lg font-semibold flex items-center justify-between"
+                className="outline-none group cursor-pointer text-lg font-semibold flex items-center justify-between duration-300 ease-in-out hover:scale-101 focus:scale-101"
                 onClick={() => setOpen(!open)}
             >    
                 {question}
