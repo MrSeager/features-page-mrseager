@@ -23,7 +23,7 @@ export default function SectionFooter() {
                 </ul>
             </div>
             <div className="lg:p-5">
-                <form className="grid grid-cols-2 gap-5 ring ring-[#525252]/25 shadow-md p-5 rounded-md duration-300 ease-in-out hover:scale-101 hover:shadow-lg">
+                <form className="grid md:grid-cols-2 gap-5 ring ring-[#525252]/25 shadow-md p-5 rounded-md duration-300 ease-in-out hover:scale-101 hover:shadow-lg">
                     <div className="flex flex-col ">
                         <label htmlFor="name">Name</label>
                         <input 
@@ -33,7 +33,7 @@ export default function SectionFooter() {
                             placeholder="Your name"
                         />
                     </div>
-                    <div className="flex flex-col ">
+                    <div className="flex flex-col">
                         <label htmlFor="email">Email</label>
                         <input 
                             id="email"
@@ -42,7 +42,7 @@ export default function SectionFooter() {
                             placeholder="example@example.com"
                         />
                     </div>
-                    <div className="flex flex-col col-span-2">
+                    <div className="flex flex-col md:col-span-2">
                         <label htmlFor="text">Message</label>
                         <textarea 
                             id="text"
@@ -57,7 +57,7 @@ export default function SectionFooter() {
                     </div>
                     <CustomBtnA 
                         name="Submit"
-                        classN='bg-[#4438CA] text-white px-5 col-span-2'
+                        classN='bg-[#4438CA] text-white px-5 md:col-span-2'
                     />
                 </form>
             </div>
