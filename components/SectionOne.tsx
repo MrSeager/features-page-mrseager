@@ -17,10 +17,10 @@ export default function SectionOne() {
                     <li className="flex items-center gap-2 duration-300 hover:scale-105"><IoMdCheckmark className="rounded-full bg-[#4438CA]/25 text-[#4438CA]" />Various format variants available</li>
                     <li className="flex items-center gap-2 duration-300 hover:scale-105"><IoMdCheckmark className="rounded-full bg-[#4438CA]/25 text-[#4438CA]" />Retina display support</li>
                 </ul>
-                <div className="flex gap-2">
+                <div className="flex gap-2 justify-center md:justify-start w-full">
                     <CustomBtnA
                         name="Learn more"
-                        classN='bg-white text-black px-5'
+                        classN='ring ring-[#525252]/5 bg-white text-black px-5'
                     />
                     <CustomBtnA
                         name="See pricing"

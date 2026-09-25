@@ -11,13 +11,13 @@ export default function SectionFooter() {
     const [message, setMessage] = useState<string>("");
 
     return(
-        <footer className="z-6 flex flex-col lg:grid grid-cols-2 bg-white w-full shadow-xl gap-3 py-20 px-5 lg:px-15 rounded-b-md">
+        <footer className="z-6 flex flex-col lg:grid grid-cols-2 bg-white w-full shadow-xl gap-5 py-20 px-5 lg:px-15 rounded-b-md">
             <div className="flex flex-col gap-3">
                 <h5 className="text-4xl md:text-6xl font-semibold duration-300 hover:scale-102">Talk to our team</h5>
                 <p className="text-[#525252] text-pretty duration-300 hover:scale-102">We&apos;re committed to delivering the support you require to make experience as smooth as possible.</p>
             
-                <ul className="text-base/15 pt-5">
-                    <li className="flex items-center gap-2 duration-300 hover:scale-102"><span className="bg-white shadow-md rounded-full p-2 aspect-1/1 text-[#4438CA]"><RiBuildingLine size={25} /></span> 123 Maple Street, Springfield, IL, USA</li>
+                <ul className="pt-5 space-y-5">
+                    <li className="flex text-pretty text-base/5 items-center gap-2 duration-300 hover:scale-102"><span className="bg-white shadow-md rounded-full p-2 aspect-1/1 text-[#4438CA]"><RiBuildingLine size={25} /></span> 123 Maple Street, Springfield, IL, USA</li>
                     <li className="flex items-center gap-2 duration-300 hover:scale-102"><span className="bg-white shadow-md rounded-full p-2 aspect-1/1 text-[#4438CA]"><RiPhoneLine size={25} /></span>+1 (650) 555-0198</li>
                     <li className="flex items-center gap-2 duration-300 hover:scale-102"><span className="bg-white shadow-md rounded-full p-2 aspect-1/1 text-[#4438CA]"><RiMailLine  size={25} /></span>hello@abstractly.com</li>
                 </ul>
@@ -61,7 +61,7 @@ export default function SectionFooter() {
                     />
                 </form>
             </div>
-            <div className="py-15 col-span-2 flex flex-col gap-3 items-center">
+            <div className="pt-15 pb- col-span-2 flex flex-col gap-3 items-center">
                 <div className="flex gap-5">
                     <CustomLink
                         name="Features"
